@@ -4,8 +4,386 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/tablet.css" media="min-width: 641px and max-width: 1200px">
+  <link rel="stylesheet" href="css/desktop.css" media="min-width: 1201px">
 </head>
 <body>
+  <!-- <header class="header">
+  <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
   
+  <label for="burger-checkbox" class="menu-overlay"></label>
+  
+  <nav class="menu">
+    <label for="burger-checkbox" class="burger" aria-label="Открыть меню">
+      <svg class="burger-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </label>
+    <ul class="menu-list">
+      <li class="menu-list__item"><a href="#" class="menu-list__link">Главная</a></li>
+      <li class="menu-list__item"><a href="#posts" class="menu-list__link">Посты</a></li>
+      <li class="menu-list__item"><a href="#articles" class="menu-list__link">Статьи</a></li>
+      <li class="menu-list__item"><a href="#tags" class="menu-list__link">Теги</a></li>
+      <li class="menu-list__item"><a href="#themes" class="menu-list__link">Темы</a></li>
+      <li class="menu-list__item"><a href="#contacts" class="menu-list__link">Контакты</a></li>
+    </ul>
+  </nav>
+    <div class="header-content">
+      <a href="#" class="logo-link">
+        <img class="logo-img" src="/svg/noemi-logo.svg" alt="Логотип">
+      </a>
+      <h1 class="title">
+        Блог о творчестве, спорте, и образе жизни
+      </h1>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="trands">
+      <h2 class="trands-title devider">Сейчас в тренде</h2>
+      <article class="trand trand-1">
+        <div class="trand-content">
+          <ul class="trands-item__tags">
+            <li class="tag-item"><a href="#" class="tag-link">lifestyle</a></li>
+            <li class="tag-item"><a href="#" class="tag-link">interior</a></li>
+          </ul>
+          <p class="trands-item-text">Сейчас в тренде: сад на подоконнике</p>
+        </div>
+      </article>
+      <article class="trand trand-2">
+        <div class="trand-content">
+          <ul class="trands-item__tags">
+            <li class="tag-item"><a href="#" class="tag-link">Food</a></li>
+          </ul>
+          <p class="trands-item-text">Сыры на красивых картинках: Какие они на вкус?</p>
+        </div>
+      </article> -->
+
+    <!-- </section>
+    <section class="posts">
+      <article class="post-card">
+        <img src="/images/last-post1.jpg" alt="Одинокий человек на пляже" class="post-card__img">
+        <section class="post-card__content">
+          <ul class="tag-list">
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">Travel</a>
+            </li>
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">health</a>
+            </li>
+          </ul>
+          <h2 class="post-title">
+            <a class="post-title__link" href="#">
+              10 мест, ради которых стоит проснуться на рассвете 
+            </a>
+          </h2>
+          <div class="author-data">
+            <time class="author-date" datetime="2026-04-09">
+              10 июня 2019
+            </time>
+            <span class="author-name">Неизвестный Автор</span>
+          </div>
+          <div class="post-text">
+              <p>
+                Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?
+              </p>
+          </div>
+        </section>
+      </article>
+      <article class="post-card">
+        <img src="/images/last-post2.jpg" alt="Девушка занимается йогой" class="post-card__img">
+        <section class="post-card__content">
+          <ul class="tag-list">
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">health</a>
+            </li>
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">Lifestyle</a>
+            </li>
+          </ul>
+          <h2 class="post-title">
+            <a class="post-title__link" href="#">
+              ЙОга для начинающих в домашних условиях
+            </a>
+          </h2>
+          <div class="author-data">
+            <time class="author-date" datetime="2026-04-09">
+              10 июня 2019
+            </time>
+            <span class="author-name">Неизвестный Автор</span>
+          </div>
+          <div class="post-text">
+              <p>
+                Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.
+              </p>
+          </div>
+        </section>
+      </article>
+      <article class="post-card">
+        <img src="/images/last-post3.jpg" alt="Мужик на акции протеста" class="post-card__img">
+        <section class="post-card__content">
+          <ul class="tag-list">
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">Music</a>
+            </li>
+          </ul>
+          <h2 class="post-title">
+            <a class="post-title__link" href="#">
+              Лучшие музыкальные фестивали этого лета
+            </a>
+          </h2>
+          <div class="author-data">
+            <time class="author-date" datetime="2026-04-09">
+              10 июня 2019
+            </time>
+            <span class="author-name">Неизвестный Автор</span>
+          </div>
+          <div class="post-text">
+              <p>
+                Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?
+              </p>
+              <p>
+                Мы составили список лучших летних фестивалей по всему миру.
+              </p>
+          </div>
+        </section>
+      </article>
+      <article class="post-card">
+        <img src="/images/last-post4.jpg" alt="Обед на столе" class="post-card__img">
+        <section class="post-card__content">
+          <ul class="tag-list">
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">Lifestyle</a>
+            </li>
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">Food</a>
+            </li>
+          </ul>
+          <h2 class="post-title">
+            <a class="post-title__link" href="#">
+              Наукоёмкий подход к кулинарии
+            </a>
+          </h2>
+          <div class="author-data">
+            <time class="author-date" datetime="2026-04-09">
+              10 июня 2019
+            </time>
+            <span class="author-name">Неизвестный Автор</span>
+          </div>
+          <div class="post-text">
+              <p>
+                Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.
+              </p>
+          </div>
+        </section>
+      </article>
+      <article class="post-card">
+        <img src="/images/last-post5.jpg" alt="Подушка с надписью 'Место для тусовок'" class="post-card__img">
+        <section class="post-card__content">
+          <ul class="tag-list">
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">Lifestyle</a>
+            </li>
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">interior</a>
+            </li>
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">Art</a>
+            </li>
+          </ul>
+          <h2 class="post-title">
+            <a class="post-title__link" href="#">
+              делаем модные принты на подушках для интерьера 
+            </a>
+          </h2>
+          <div class="author-data">
+            <time class="author-date" datetime="2026-04-09">
+              10 июня 2019
+            </time>
+            <span class="author-name">Неизвестный Автор</span>
+          </div>
+          <div class="post-text">
+              <p>
+                Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.
+              </p>
+          </div>
+        </section>
+      </article>
+    </section> -->
+
+    <aside class="sidebar">
+      <section class="sidebar-item" id="articles">
+        <h3 class="sidebar-title devider">Новые посты</h3>
+        <div class="new-posts-list">
+          <article class="new-post-card">
+            <img src="https://netology-code.github.io/html-2-diploma/sources/images/2.jpg" alt="Одинокий человек на пляже" class="new-post-card__img">
+            <section class="new-post-card__content">
+              <time datetime="2019-06-14" class="new-post-date">14 июня 2019</time>
+              <h3 class="new-post-card__title">
+                <a href="#" class="new-post-card__link">
+                  10 мест, ради которых стоит проснуться
+                </a>
+              </h3>
+            </section>
+          </article>
+          <article class="new-post-card">
+            <img src="https://netology-code.github.io/html-2-diploma/sources/images/151.jpg" alt="Девушка занимается йогой на море" class="new-post-card__img">
+            <section class="new-post-card__content">
+              <time datetime="2019-06-14" class="new-post-date">14 июня 2019</time>
+              <h3 class="new-post-card__title">
+                <a href="#" class="new-post-card__link">
+                  Йога для домашних
+                </a>
+              </h3>
+            </section>
+          </article>
+          <article class="new-post-card">
+            <img src="https://netology-code.github.io/html-2-diploma/sources/images/45.jpg" alt="Красивый интерьер" class="new-post-card__img">
+            <section class="new-post-card__content">
+              <time datetime="2019-06-14" class="new-post-date">14 июня 2019</time>
+              <h3 class="new-post-card__title">
+                <a href="#" class="new-post-card__link">
+                  Как мы превратили классное место в балкон
+                </a>
+              </h3>
+            </section>
+          </article>
+          <article class="new-post-card">
+            <img src="https://netology-code.github.io/html-2-diploma/sources/images/501.jpg" alt="Обед на столе" class="new-post-card__img">
+            <section class="new-post-card__content">
+              <time datetime="2019-06-14" class="new-post-date">14 июня 2019</time>
+              <h3 class="new-post-card__title">
+                <a href="#" class="new-post-card__link">
+                  Кулинарный подход к науке
+                </a>
+              </h3>
+            </section>
+          </article>
+          <article class="new-post-card">
+            <img src="https://netology-code.github.io/html-2-diploma/sources/images/7.jpg" alt="3 девушки с длинными волосами стоят задом" class="new-post-card__img">
+            <section class="new-post-card__content">
+              <time datetime="2019-06-14" class="new-post-date">14 июня 2019</time>
+              <h3 class="new-post-card__title">
+                <a href="#" class="new-post-card__link">
+                  лучшие прически для распущенных волос
+                </a>
+              </h3>
+            </section>
+          </article>
+        </div>
+        <form class="search-form">
+          <label class="visually-hidden" for="search-input">
+            Поле поиск по сайту
+          </label>
+          <input type="search" id="search-input" class="input-field" placeholder="Найти...">
+          <label class="visually-hidden" for="search-btn">
+            Кнопка поиска по сайту
+          </label>
+          <button type="submit" class="search-btn" id="search-btn"></button>
+        </form>
+      </section>
+
+      <section class="sidebar-item">
+        <h3 class="sidebar-title devider">Рассылка</h3>
+        <form class="notification-form">
+          <input type="email" id="email-input" class="input-field notification-input" placeholder="Ваш email-адрес">
+          <button type="submit" class="notification-btn">Подписаться</button>
+        </form>
+      </section>
+
+      <section class="sidebar-item">
+          <h3 class="sidebar-title devider">Теги</h3>
+          <div class="sidebar-tags-list">
+            <ul class="sidebar-tags-list__items">
+              <li>
+                <div class="tag-link-box">
+                  <a href="#" class="tag-link sidebar-tag-link">Fashion</a>
+                </div>
+              </li>
+              <li>
+                <div class="tag-link-box">
+                  <a href="#" class="tag-link sidebar-tag-link">Music</a>
+                </div>
+              </li>
+              <li>
+                <div class="tag-link-box">
+                  <a href="#" class="tag-link sidebar-tag-link">Lifestyle</a>
+                </div>
+              </li>
+              <li>
+                <div class="tag-link-box">
+                  <a href="#" class="tag-link sidebar-tag-link">Art</a>
+                </div>
+              </li>
+              <li>
+                <div class="tag-link-box">
+                  <a href="#" class="tag-link sidebar-tag-link">Interior</a>
+                </div>
+              </li>
+              <li>
+                <div class="tag-link-box">
+                  <a href="#" class="tag-link sidebar-tag-link">Travel</a>
+                </div>
+              </li>
+              <li>
+                <div class="tag-link-box">
+                  <a href="#" class="tag-link sidebar-tag-link">Food</a>
+                </div>
+              </li>
+              <li>
+                <div class="tag-link-box">
+                  <a href="#" class="tag-link sidebar-tag-link">Health</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+      </section>
+
+      <section class="sidebar-item" id="themes">
+        <h3 class="sidebar-title devider">Темы</h3>
+        <ul class="sidebar-themes-list">
+          <li>
+            <a href="#" class="sidebar-themes-link">
+              Красота <span class="themes-views-count">12</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar-themes-link">
+              Здоровье <span class="themes-views-count">4</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar-themes-link">
+              Образ жизни <span class="themes-views-count">145</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar-themes-link">
+              Музыка <span class="themes-views-count">28</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar-themes-link">
+              Спорт <span class="themes-views-count">62</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar-themes-link">
+              Йога <span class="themes-views-count">8</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </aside>
+
+  </main>
+
+  <footer>
+
+  </footer>
 </body>
 </html>
