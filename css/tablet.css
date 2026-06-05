@@ -64,14 +64,25 @@
 }
 
 .content-wrp {
+  max-width: 840px;
   display: flex;
+  justify-content: space-between;
   padding: 20px 35px;
+  margin: 0 auto;
+}
+
+.posts {
+  max-width: 400px;
 }
 
 .post-card {
   display: flex;
   flex-direction: column;
 
+}
+
+.sidebar {
+  width: 275px;
 }
 
 .shop-list-wrp {
