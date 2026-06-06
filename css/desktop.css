@@ -1,0 +1,119 @@
+
+.header {
+  padding: 35px 30px;
+}
+
+.header-wrp {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.burger-icon {
+  display: none;
+}
+
+.menu {
+  width: 100%;
+  flex-direction: row;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  position: static;
+  background: none;
+  padding: 0;
+  width: auto;
+  height: auto;
+  gap: 30px;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  width: 160px;
+  height: 30px;
+}
+
+.logo-link {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-img {
+  width: 100%;
+  height: 100%;
+}
+
+.header::before {
+  background-image: url("../images/banner-bg.jpg");
+}
+
+.header-title {
+  width: 700px;
+}
+
+.title {
+  font-size: 45px;
+  line-height: 75px;
+}
+
+.trand {
+  flex: 0 0 calc((100% - 9px) / 4);
+  height: 315px;
+}
+
+.trand-content {
+  width: 100%;
+}
+
+.content-wrp {
+  max-width: 1200px;
+  padding: 0 10px 30px;
+}
+
+.posts {
+  max-width: 780px;
+  gap: 60px;
+}
+
+.post-card {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 100%;
+  height: 290px;
+}
+
+.post-card__img {
+  width: 380px;
+  display: block;
+  object-fit: cover;
+}
+
+.post-card__content {
+  border-bottom: none;
+}
+
+.shop-list {
+  max-width: 1200px;
+  padding: 0 10px;
+}
+
+.shop-list-wrp {
+  padding: 0 0 60px;
+  flex-wrap: nowrap;
+  gap: 60px;
+}
+
+.shop-card-wrp {
+  padding: 0;
+}
+
+.wrp-footer {
+  display: flex;
+  max-width: 1200px;
+  padding: 0 10px;
+}
