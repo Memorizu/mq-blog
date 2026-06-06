@@ -19,7 +19,7 @@ a {
 }
 
 .header::before {
-  background-image: url("/images/banner-mobile.jpg");
+  background-image: url("../images/banner-mobile.jpg");
   background-size: cover;
   content: "";
   position: absolute;
@@ -182,7 +182,7 @@ a {
 }
 
 .trand-1::before {
-  background-image: url("/images/trend1.jpg");
+  background-image: url("../images/trend1.jpg");
   background-size: cover;
   content: "";
   position: absolute;
@@ -195,7 +195,7 @@ a {
 }
 
 .trand-2::before {
-  background-image: url("/images/trend2.jpg");
+  background-image: url("../images/trend2.jpg");
   background-size: cover;
   content: "";
   position: absolute;
@@ -208,7 +208,7 @@ a {
 }
 
 .trand-3::before {
-  background-image: url("/images/trend3.jpg");
+  background-image: url("../images/trend3.jpg");
   background-size: cover;
   content: "";
   position: absolute;
@@ -221,7 +221,7 @@ a {
 }
 
 .trand-4::before {
-  background-image: url("/images/trend4.jpg");
+  background-image: url("../images/trend4.jpg");
   background-size: cover;
   content: "";
   position: absolute;
@@ -248,6 +248,21 @@ a {
 .trands-item__tags {
   display: flex;
   gap: 20px;
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+  .trands {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .trand {
+    flex: 0 0 calc((100% - 3px) / 2);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+  }
 }
 
 .tag-link {
@@ -459,7 +474,7 @@ a {
   width: 57px;
   height: 48px;
   background-color: #b59f5b;
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
+  background-image: url("../svg/search.svg");
   background-size: 18px;
   background-repeat: no-repeat;
   background-position: center;
@@ -711,15 +726,15 @@ a {
 }
 
 .dribble {
-  background-image: url("/svg/001-dribbble.svg");
+  background-image: url("../svg/001-dribbble.svg");
 }
 
 .pinterest {
-  background-image: url("/svg/001-pinterest.svg");
+  background-image: url("../svg/001-pinterest.svg");
 }
 
 .tumblr {
-  background-image: url("/svg/003-tumblr.svg");
+  background-image: url("../svg/003-tumblr.svg");
 }
 
 .visually-hidden {

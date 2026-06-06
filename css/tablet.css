@@ -32,7 +32,7 @@
 }
 
 .header::before {
-  background-image: url("/images/banner-bg-tablet.jpg");
+  background-image: url("../images/banner-bg-tablet.jpg");
 }
 
 
@@ -61,6 +61,17 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 15px;
+}
+
+@media (min-width: 641px) and (orientation: landscape) {
+  .trand {
+    width: calc((100% - 20px) / 4);
+    height: 315px;
+  }
+
+  .trand-content {
+    width: 100%;
+  }
 }
 
 .content-wrp {
