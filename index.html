@@ -45,7 +45,7 @@
         Блог о творчестве, спорте, и образе жизни
       </h1>
     </div>
-    
+
   </header>
 
   <main class="main">
@@ -497,6 +497,51 @@
           </li>
         </ul>
       </address>
+      <section class="feedback-block">
+        <input type="checkbox" id="popup-toggle" class="popup-toggle">
+        <label for="popup-toggle" class="feedback"></label>
+        <div class="popup">
+          <div class="popup-content">
+            <label for="popup-toggle" class="popup-close">&times;</label>
+            <h3 class="feedback-title devider">Ваш фидбек</h3>
+
+            <form class="feedback-form">
+              <div class="select-wrapper">
+                <p>Как часто вы заходите на сайт?</p>
+                <select class="form-select">
+                  <option class="select">Почти каждый день</option>
+                  <option class="select">Раз в неделю</option>
+                  <option class="select">Раз в месяц</option>
+                </select>
+              </div>
+              
+              <div class="radio-group-wrp">
+                <p>Вы подписаны на e-mail рассылку?</p>
+                <div class="radio-group">
+                  <label class="radio">
+                    <input type="radio" name="mail" checked>
+                    <span class="radio-mark"></span>
+                    Да
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="mail">
+                    <span class="radio-mark"></span>
+                    Нет
+                  </label>
+                </div>
+              </div>
+              
+
+              <label class="form-group">
+                <span>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+                <textarea class="form-group-textarea" placeholder="Может, больше рецептов?"></textarea>
+              </label>
+              <button class="feedback-button" type="submit">Отправить</button>
+            </form>
+
+          </div>
+        </div>
+      </section>
       <section class="copyright">
         <span class="copyright-text">Copyright © 2009–2019 City Blog LLC.</span>
       </section>
