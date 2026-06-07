@@ -737,6 +737,184 @@ a {
   background-image: url("../svg/003-tumblr.svg");
 }
 
+.feedback-block {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+  position: relative;
+}
+
+.feedback-block::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+
+  width: 30%;
+  height: 2px;
+  background-color: #b59f5b;
+}
+
+.feedback {
+  display: flex;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  background: url("../svg/user-square-svgrepo-com.svg") center/contain no-repeat;
+}
+
+.popup-toggle {
+  display: none;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.8);
+  z-index: 100;
+}
+
+.popup-toggle:checked ~ .popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  max-width: 360px;
+  padding: 30px;
+  background: #fff;
+  font-size: 14px;
+}
+
+.feedback-title {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.select-wrapper {
+  margin: 10px 0;
+}
+
+.form-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: none;
+  background-color: #ebefef;
+  background-image: url("../svg/form-arrows.svg");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.form-select:hover {
+  cursor: pointer;
+}
+
+.form-select:focus {
+  outline: 2px solid #b59f5b;
+} 
+
+.popup-close {
+  position: absolute;
+  right: 0;
+  top: -50px;
+  color: #fff;
+  font-size: 60px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.radio-group-wrp {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 40px;
+}
+
+.radio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.radio input { 
+  display: none; 
+} 
+
+.radio-mark { 
+  width: 25px; 
+  height: 25px; 
+  display: inline-block; 
+  background-image: url("../svg/form-empty-circle.svg"); 
+  background-repeat: no-repeat; background-size: contain; 
+} 
+
+.radio-mark {
+  cursor: pointer;
+}
+
+.radio input:checked + .radio-mark { 
+  background-image: url("../svg/form-circle.svg"); 
+}
+
+.form-group-textarea {
+  width: 100%;
+  min-height: 150px;
+  border: 0;
+  padding: 20px 15px;
+  margin-top: 10px;
+  background-color: #ebefef;
+  resize: vertical;
+}
+
+.form-group-textarea:focus {
+  outline: 2px solid #b59f5b;
+}
+
+.feedback-button {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  background-color: #b59f5b;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+}
+
+.feedback-button:hover {
+  cursor: pointer;
+  outline: 1px solid #b59f5b;
+  font-size: 15px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
