@@ -1,5 +1,6 @@
 .header {
   padding: 35px 30px;
+  height: 390px;
 }
 
 .header-wrp {
@@ -75,7 +76,7 @@
 }
 
 .content-wrp {
-  max-width: 840px;
+  /* max-width: 840px; */
   display: flex;
   justify-content: space-between;
   padding: 20px 35px;
@@ -83,7 +84,7 @@
 }
 
 .posts {
-  max-width: 400px;
+  /* max-width: 400px; */
 }
 
 .post-card {

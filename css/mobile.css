@@ -21,6 +21,7 @@ a {
 .header::before {
   background-image: url("../images/banner-mobile.jpg");
   background-size: cover;
+  background-position: center;
   content: "";
   position: absolute;
   top: 0;
@@ -245,11 +246,6 @@ a {
   margin: 0 auto;
 }
 
-.trands-item__tags {
-  display: flex;
-  gap: 20px;
-}
-
 @media (max-width: 640px) and (orientation: landscape) {
   .trands {
     width: 100%;
@@ -280,6 +276,10 @@ a {
   text-transform: uppercase;
   font-weight: bold;
   line-height: 20px;
+}
+
+.trands-item__link:hover {
+  color: #b59f5b;
 }
 
 .posts {
