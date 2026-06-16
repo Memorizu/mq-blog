@@ -1,6 +1,7 @@
 
 .header {
   padding: 35px 30px;
+  height: 450px;
 }
 
 .header-wrp {
@@ -66,6 +67,7 @@
 }
 
 .trand-content {
+  display: block;
   width: 100%;
 }
 

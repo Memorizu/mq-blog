@@ -53,37 +53,67 @@
       <h2 class="trands-title devider">Сейчас в тренде</h2>
       <article class="trand trand-1">
         <div class="trand-content">
-          <ul class="trands-item__tags">
-            <li class="tag-item"><a href="#" class="tag-link">lifestyle</a></li>
-            <li class="tag-item"><a href="#" class="tag-link">interior</a></li>
+          <ul class="tag-list">
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">Lifestyle</a>
+            </li>
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">interior</a>
+            </li>
           </ul>
-          <p class="trands-item-text">Сейчас в тренде: сад на подоконнике</p>
+          <h2 class="trands-item-text">
+            <a class="trands-item__link" href="#">
+              Сейчас в тренде: сад на подоконнике
+            </a>
+          </h2>
         </div>
       </article>
       <article class="trand trand-2">
         <div class="trand-content">
-          <ul class="trands-item__tags">
-            <li class="tag-item"><a href="#" class="tag-link">Food</a></li>
+          <ul class="tag-list">
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">Food</a>
+            </li>
           </ul>
-          <p class="trands-item-text">Сыры на красивых картинках: Какие они на вкус?</p>
+          <h2 class="trands-item-text">
+            <a class="trands-item__link" href="#">
+              Сыры на красивых картинках: Какие они на вкус?
+            </a>
+          </h2>
         </div>
       </article>
       <article class="trand trand-3">
         <div class="trand-content">
-          <ul class="trands-item__tags">
-            <li class="tag-item"><a href="#" class="tag-link">lifestyle</a></li>
-            <li class="tag-item"><a href="#" class="tag-link">Travel</a></li>
+          <ul class="tag-list">
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">Lifestyle</a>
+            </li>
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">Travel</a>
+            </li>
           </ul>
-          <p class="trands-item-text">Собираем в первый поход в горы</p>
+          <h2 class="trands-item-text">
+            <a class="trands-item__link" href="#">
+              Собираем в первый поход в горы<
+            </a>
+          </h2>
         </div>
       </article>
       <article class="trand trand-4">
         <div class="trand-content">
-          <ul class="trands-item__tags">
-            <li class="tag-item"><a href="#" class="tag-link">Food</a></li>
-            <li class="tag-item"><a href="#" class="tag-link">Health</a></li>
+          <ul class="tag-list">
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">Food</a>
+            </li>
+            <li class="tag-list__item">
+              <a href="#" class="tag-link">Health</a>
+            </li>
           </ul>
-          <p class="trands-item-text">Сейчас в тренде: Сколько витамина в лимонах?</p>
+          <h2 class="trands-item-text">
+            <a class="trands-item__link" href="#">
+              Сейчас в тренде: Сколько витамина в лимонах?
+            </a>
+          </h2>
         </div>
       </article>
     </section>
@@ -413,7 +443,11 @@
         <article class="shop-card-wrp">
           <div class="shop-card">
             <section class="shop-img-block">
-              <img src="images/shop-item-mobile1.jpg" class="shop-card-img" alt="Подушка с надписью 'Место для тусовок'">
+              <picture>
+                <source media="(min-width: 641px)" srcset="images/shop-item-tablet1.jpg">
+                <source media="(min-width: 1201px)" srcset="images/shop-item-desktop1.jpg">
+                <img src="images/shop-item-mobile1.jpg" class="shop-card-img" alt="Подушка с надписью 'Место для тусовок'">
+              </picture>
             </section>
             <section class="shop-card__content">
               <h3 class="shop-card-title">Подушки на диван</h3>
@@ -426,14 +460,20 @@
                   <p class="price-wo-discount">1000 ₽</p>
                   <p class="price-w-discount">800 ₽</p>
                 </div>
-                <div class="shop-link">В магазин</div>
+                <div class="shop-link">
+                  <a href="#">В магазин</a>
+                </div>
               </section>
           </div>
         </article>
         <article class="shop-card-wrp">
           <div class="shop-card">
             <section class="shop-img-block">
-              <img src="images/shop-item-mobile2.jpg" class="shop-card-img" alt="Рукодельная кукла Зайчик">
+              <picture>
+                <source media="(min-width: 641px)" srcset="images/shop-item-tablet2.jpg">
+                <source media="(min-width: 1201px)" srcset="images/shop-item-desktop2.jpg">
+                <img src="images/shop-item-mobile2.jpg" class="shop-card-img" alt="Рукодельная кукла Зайчик">
+              </picture>
             </section>
             <section class="shop-card__content">
               <h3 class="shop-card-title">Кукла "Зайчик"</h3>
@@ -447,14 +487,20 @@
                   <p class="price-wo-discount">500 ₽</p>
                   <p class="price-w-discount">3500 ₽</p>
                 </div>
-                <div class="shop-link">В магазин</div>
+                <div class="shop-link">
+                  <a href="#">В магазин</a>
+                </div>
               </section>
           </div>
         </article>
         <article class="shop-card-wrp">
           <div class="shop-card">
             <section class="shop-img-block">
-              <img src="images/shop-item-mobile3.jpg" class="shop-card-img" alt="Шестиугольная рамка">
+              <picture>
+                <source media="(min-width: 641px)" srcset="images/shop-item-tablet3.jpg">
+                <source media="(min-width: 1201px)" srcset="images/shop-item-desktop3.jpg">
+                <img src="images/shop-item-mobile3.jpg" class="shop-card-img" alt="Шестиугольная рамка">
+              </picture>
             </section>
             <section class="shop-card__content">
               <h3 class="shop-card-title">Шестиугольная рамка"</h3>
@@ -467,7 +513,9 @@
                   <p class="price-wo-discount">500 ₽</p>
                   <p class="price-w-discount">400 ₽</p>
                 </div>
-                <div class="shop-link">В магазин</div>
+                <div class="shop-link">
+                  <a href="#">В магазин</a>
+                </div>
               </section>
           </div>
         </article>
